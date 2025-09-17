@@ -28,7 +28,7 @@ tipos de variaveis
 
 > xxx pipipi popopo
 
-[Solution](exercises/ex1/ex1.ino)
+[Solution](exercises/exercise1/exercise1.ino)
 
 
 
