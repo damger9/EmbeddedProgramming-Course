@@ -1,13 +1,10 @@
 # Embedded Programming - Tutorials
 
-Here you will find a set of tutorials to practice the Embedded Programming concepts using the ESP32 and the Arduino IDE.
-
-
-![pcb used in the practicals.](pcb.png)
-
 ## Objectives
 
 Here you will find a set of tutorials to practice the Embedded Programming concepts using the ESP32 and the Arduino IDE.
+
+![pcb used in the practicals.](pcb.png)
 
 This repository is intended to facilitate the understanding of the concepts presented in class, providing step-by-step examples, exercises, and references that students can reproduce and expand upon independently. By following the tutorials, you will gradually build the skills necessary to work with embedded systems in a structured and practical way.
 
