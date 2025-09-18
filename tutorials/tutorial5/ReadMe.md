@@ -98,6 +98,6 @@ switch (day) {
 - Obs.: `break` exits the switch. If the command is omitted, the execution falls through into the next case. For more details refer to [w3schools](https://www.w3schools.com/c/c_switch.php).
 
 ## Next Tutorial
-Go to [Tutorial 5](../tutorial2/ReadMe.md) - Input and Output.
+Go to [Tutorial 6](../tutorial6/ReadMe.md) - Control Flow: The for, while, and do-while loop statements.
 
 Back to [main page](../../README.md).

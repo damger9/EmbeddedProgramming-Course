@@ -66,6 +66,6 @@ tipos de variaveis
 
 
 ## Next Tutorial
-Go to [Tutorial 5](../tutorial5/ReadMe.md) - Input and Output.
+Go to [Tutorial 5](../tutorial5/ReadMe.md) - Control Flow: The if-else and switch statements.
 
 Back to [main page](../../README.md).

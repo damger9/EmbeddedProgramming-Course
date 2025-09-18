@@ -34,6 +34,6 @@ void loop() {
 
 ## Next Tutorial
 
-Go to [Tutorial 4](../tutorial4/ReadMe.md) - Input and Output.
+Go to [Tutorial 4](../tutorial4/ReadMe.md) - Variables/Data Types.
 
 Back to [main page](../../README.md).

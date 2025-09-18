@@ -29,8 +29,6 @@ The content of each tutorial is listed below:
 - [Tutorial 12](/tutorials/tutorial12/ReadMe.md) - I2C Communication.
 - [Tutorial 13](/tutorials/tutorial13/ReadMe.md) - SPI Communication.
 
-
-
 ## How to use
 
 ### Organization
