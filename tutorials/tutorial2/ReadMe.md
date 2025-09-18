@@ -45,7 +45,7 @@ void loop() {
 
 Develop a program to light up multiple LEDs.
 
-Solution: [ex1](/ex1/ex1.ino)
+Solution: [ex1](ex1/ex1.ino).
 
 ## Input Examples – Buttons
 
