@@ -89,9 +89,44 @@ Alternativelly:
 
 ![alt text](image-1.png)
 
-## First test: Wifi Scan
+## Example 1: Hello World
+The codes below show two options for printing "Hello World" via Serial communication. Please open the Serial Monitor in the Arduino IDE to see what is being transmitted.
 
-Let us test our first program!
+```cpp
+// ESP32 "Hello, world" — v1
+void setup() {
+  Serial.begin(115200);          // Open serial at 115200 bps
+  Serial.println("Hello, world"); 
+}
+
+void loop() {
+  // Nothing to do here
+}
+```
+
+
+
+```cpp
+// ESP32 "Hello, world" — v2
+void setup() {
+  Serial.begin(115200);
+}
+
+void loop() {
+  Serial.println("Hello, world");
+  delay(1000);
+}
+```
+
+**Answer:** What is the difference in the behavior of the codes?
+
+- In the first code, "Hello, world" is printed only once, right after the ESP32 starts, because the `Serial.println("Hello, world");` command is inside the `setup()` function, which runs only once.
+- In the second code, "Hello, world" is printed repeatedly every second, because the `Serial.println("Hello, world");` command is inside the `loop()` function, which runs continuously. The `delay(1000);` causes a 1-second pause between each print.
+
+
+## Example 2: Wifi Scan
+
+Let's try a built-in example from the IDE.
 
 First, open the WiFiScan example. Navigate to `File > Examples > WiFi > WiFiScan`.
 
@@ -112,8 +147,6 @@ The ESP will output the Wifi networks found:
 - Using the Arduino Software (IDE)
 <https://docs.arduino.cc/learn/starting-guide/the-arduino-software-ide/>
 - UART Communication <https://randomnerdtutorials.com/esp32-uart-communication-serial-arduino/>
-
-
 
 ## Next Tutorial
 Go to [Tutorial 2](../tutorial2/ReadMe.md) - Input and Output.

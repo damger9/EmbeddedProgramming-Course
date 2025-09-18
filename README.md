@@ -28,7 +28,7 @@ While most sketches should work on other ESP32 variants, minor adjustments may b
 ## Content
 The content of each tutorial is listed below:
 
-- [Tutorial 1](/tutorials/tutorial1/ReadMe.md) - Setting up the Arduino IDE.
+- [Tutorial 1](/tutorials/tutorial1/ReadMe.md) - Setting up the Arduino IDE. Hello World.
 - [Tutorial 2](/tutorials/tutorial2/ReadMe.md) - Input and Output.
 - [Tutorial 3](/tutorials/tutorial3/ReadMe.md) - UART Communication and Hello World.
 - [Tutorial 4](/tutorials/tutorial4/ReadMe.md) - Variables/Data Types.
