@@ -4,9 +4,12 @@ Here you will find a set of tutorials to practice the Embedded Programming conce
 
 This page is available at: [https://github.com/costawess/EmbeddedProgramming-Course/](https://github.com/costawess/EmbeddedProgramming-Course/)
 
-<!-- ==Figure Goes Here==
+![pcb used in the practicals.](pcb.png)
 
 ## Objectives and Content
+
+### Outcomes
+
 
 ==to do== -->
 
@@ -27,7 +30,7 @@ The content of each tutorial is listed below:
 
 - [Tutorial 1](/tutorials/tutorial1/ReadMe.md) - Setting up the Arduino IDE.
 - [Tutorial 2](/tutorials/tutorial2/ReadMe.md) - Input and Output.
-- [Tutorial 3](/tutorials/tutorial3/ReadMe.md) - UART and Hello World.
+- [Tutorial 3](/tutorials/tutorial3/ReadMe.md) - UART Communication and Hello World.
 - [Tutorial 4](/tutorials/tutorial4/ReadMe.md) - Variables/Data Types.
 - [Tutorial 5](/tutorials/tutorial5/ReadMe.md) - Control Flow: The if-else and switch statements.
 - [Tutorial 6](/tutorials/tutorial6/ReadMe.md) - Control Flow: The for, while, and do-while loop statements.
@@ -36,7 +39,8 @@ The content of each tutorial is listed below:
 - [Tutorial 9](/tutorials/tutorial9/ReadMe.md) - Pointers.
 - [Tutorial 10](/tutorials/tutorial10/ReadMe.md) - Structures.
 - [Tutorial 11](/tutorials/tutorial11/ReadMe.md) - Libraries.
-- [Tutorial 12](/tutorials/tutorial12/ReadMe.md) - I2C.
+- [Tutorial 12](/tutorials/tutorial12/ReadMe.md) - I2C Communication.
+- [Tutorial 13](/tutorials/tutorial13/ReadMe.md) - SPI Communication.
 
 <!-- ## License
 ==to be included== -->
