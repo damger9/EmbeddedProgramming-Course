@@ -16,11 +16,11 @@ First things first: Download the Arduino IDE on the official website [Arduino.cc
 
 To establish a serial connection with your ESP32 device, use a USB-to-UART bridge. This allows your computer to communicate with the ESP32 for programming and debugging.
 
-![alt text](image-10.png)
+![alt text](image-3.png)
 
 In some cases, the USB-to-UART bridge is provided as an external module. This approach is common for compact development boards or final products where minimizing space and cost is important.
 
-![alt text](image-3.png)
+![alt text](image-4.png)
 
 - The chip enables bidirectional communication (conversion):
     - from the ESP, it converts UART to USB for the PC.
