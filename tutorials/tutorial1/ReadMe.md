@@ -111,6 +111,7 @@ The ESP will output the Wifi networks found:
 
 - Using the Arduino Software (IDE)
 <https://docs.arduino.cc/learn/starting-guide/the-arduino-software-ide/>
+- UART Communication <https://randomnerdtutorials.com/esp32-uart-communication-serial-arduino/>
 
 
 
