@@ -2,30 +2,20 @@
 
 Here you will find a set of tutorials to practice the Embedded Programming concepts using the ESP32 and the Arduino IDE.
 
-This page is available at: [https://github.com/costawess/EmbeddedProgramming-Course/](https://github.com/costawess/EmbeddedProgramming-Course/)
 
 ![pcb used in the practicals.](pcb.png)
 
-## Objectives and Content
+## Objectives
 
-### Outcomes
+Here you will find a set of tutorials to practice the Embedded Programming concepts using the ESP32 and the Arduino IDE.
 
+This repository is intended to facilitate the understanding of the concepts presented in class, providing step-by-step examples, exercises, and references that students can reproduce and expand upon independently. By following the tutorials, you will gradually build the skills necessary to work with embedded systems in a structured and practical way.
 
-==to do== -->
+This page is available at: [https://github.com/costawess/EmbeddedProgramming-Course/](https://github.com/costawess/EmbeddedProgramming-Course/)
 
-## How to use
-
-### Organization
-The tutorials are presented in sequence, starting from the simplest concepts and gradually moving to more complex and broader topics.  
-Each concept is introduced step by step, followed by clear examples that can be reproduced directly.  
-Students are encouraged to modify the provided code and apply it to other small projects, reinforcing understanding and solidifying knowledge through experimentation.
-
-### Compatibility
-All code examples have been developed and tested using **Arduino IDE version 2.3.5**.  
-The reference hardware used throughout this repository is the **ESP32-WROOM-1** development board.  
-While most sketches should work on other ESP32 variants, minor adjustments may be required (e.g., pin mappings).
 
 ## Content
+
 The content of each tutorial is listed below:
 
 - [Tutorial 1](/tutorials/tutorial1/ReadMe.md) - Setting up the Arduino IDE. Hello World.
@@ -41,6 +31,20 @@ The content of each tutorial is listed below:
 - [Tutorial 11](/tutorials/tutorial11/ReadMe.md) - Libraries.
 - [Tutorial 12](/tutorials/tutorial12/ReadMe.md) - I2C Communication.
 - [Tutorial 13](/tutorials/tutorial13/ReadMe.md) - SPI Communication.
+
+
+
+## How to use
+
+### Organization
+The tutorials are presented in sequence, starting from the simplest concepts and gradually moving to more complex and broader topics.  
+Each concept is introduced step by step, followed by clear examples that can be reproduced directly.  
+Students are encouraged to modify the provided code and apply it to other small projects, reinforcing understanding and solidifying knowledge through experimentation.
+
+### Compatibility
+All code examples have been developed and tested using **Arduino IDE version 2.3.5**.  
+The reference hardware used throughout this repository is the **ESP32-WROOM-1** development board.  
+While most sketches should work on other ESP32 variants, minor adjustments may be required (e.g., pin mappings).
 
 <!-- ## License
 ==to be included== -->
