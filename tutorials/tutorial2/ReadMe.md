@@ -41,11 +41,32 @@ void loop() {
 - `pinMode`: Initializes the pin as `INPUT` or `OUTPUT`. This allows the pin to send/write voltage to the LED (OUTPUT) or to receive/read (INPUT).
 - `digitalWrite`: Sets the output of the pin to `HIGH` or `LOW`.
 
-### Exercise 1 
+<details>
+<summary>Exercise 1</summary>
 
+**Task:**  
 Develop a program to light up multiple LEDs.
 
-Solution: [ex1](ex1/ex1.ino).
+**Hints:**  
+
+- Use `pinMode()` to configure each LED pin as `OUTPUT`.  
+- Use `digitalWrite()` to control the state of each LED.  
+- Try to make them blink in sequence for extra practice (use the `delay()` function).  
+
+**Solution:**  
+[ex1](ex1/ex1.ino)
+</details>
+
+<details>
+<summary>Exercise 2</summary>
+
+**Task:**  
+Develop a program to light up multiple LEDs. Make them blink in sequence (use the `delay()` function).  
+
+**Solution:**  
+[ex2](ex2/ex2.ino)
+
+</details>
 
 ## Input Examples – Buttons
 
