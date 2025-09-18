@@ -118,7 +118,7 @@ void loop() {
 }
 ```
 
-**Answer:** What is the difference in the behavior of the codes?
+**Question:** What is the difference in the behavior of the codes?
 
 - In the first code, "Hello, world" is printed only once, right after the ESP32 starts, because the `Serial.println("Hello, world");` command is inside the `setup()` function, which runs only once.
 - In the second code, "Hello, world" is printed repeatedly every second, because the `Serial.println("Hello, world");` command is inside the `loop()` function, which runs continuously. The `delay(1000);` causes a 1-second pause between each print.
