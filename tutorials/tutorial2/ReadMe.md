@@ -47,12 +47,6 @@ void loop() {
 **Task:**  
 Develop a program to light up multiple LEDs.
 
-**Hints:**  
-
-- Use `pinMode()` to configure each LED pin as `OUTPUT`.  
-- Use `digitalWrite()` to control the state of each LED.  
-- Try to make them blink in sequence for extra practice (use the `delay()` function).  
-
 **Solution:**  
 [ex1](ex1/ex1.ino)
 </details>
@@ -84,9 +78,8 @@ Practical exercise: button selects which LED to turn on
 
 ## Exercises
 
-
-
 ## Next Tutorial
+
 Go to [Tutorial 3](../tutorial3/ReadMe.md) - Input and Output.
 
 Back to [main page](../../README.md).
