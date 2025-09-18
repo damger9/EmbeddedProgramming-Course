@@ -14,15 +14,21 @@ First things first: Download the Arduino IDE on the official website [Arduino.cc
 
 ## Connect the ESP32 and Install the Driver
 
-To establish a serial connection with your ESP32 device, use a USB-to-UART bridge. This allows your computer to communicate with the ESP32 for programming and debugging. 
+To establish a serial connection with your ESP32 device, use a USB-to-UART bridge. This allows your computer to communicate with the ESP32 for programming and debugging.
 
-![alt text](image-3.png)
+![alt text](image-10.png)
 
 In some cases, the USB-to-UART bridge is provided as an external module. This approach is common for compact development boards or final products where minimizing space and cost is important.
 
-![alt text](image-4.png)
+![alt text](image-3.png)
 
-That is what we will do!
+- The chip enables bidirectional communication (conversion):
+    - from the ESP, it converts UART to USB for the PC.
+    - from the PC, it converts USB to UART for the ESP.
+- So what is the purpose of the driver?
+    - it allows the operating system to recognize this chip as a virtual serial port (`COM`).
+
+That is what we will do! ;)
 
 1. First connect the ESP32 to the PC.
 2. Download and install the CP210x driver: [CP210x USB to UART Bridge VCP Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
