@@ -10,9 +10,21 @@
 
 ## Introduction to GPIOs
 
-==What are digital input and output pins==
+### What are digital input and output pins?
 
-==Basic configuration in code==
+- **Digital Output:**  
+    A pin configured as output can send a HIGH (3.3V) or LOW (0V) signal. Then powering an LED for instance.
+    *Example*: turning an LED on or off.  
+
+- **Digital Input:**  
+    A pin configured as input can read external signals as HIGH or LOW.  
+    *Example*: checking if a button is pressed.
+
+Important to note that in many microcontrollers, every GPIO is at least digital. Some GPIOs have extra capabilities, such as analog input, PWM, or special functions such as connectivity protocols. For the ESP32-WROOM-32, please refer to the "Pin Definitions" chapter in the [datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf).
+
+### Basic configuration in code
+
+![alt text](image.png)
 
 ## Output Examples – LEDs
 
@@ -64,19 +76,54 @@ Develop a program to light up multiple LEDs. Make them blink in sequence (use th
 
 ## Input Examples – Buttons
 
-Reading the state of a button
+```cpp
+// Reading the state of a button with ESP32
 
-Turning on an LED when the button is pressed
+const int buttonPin = 34;  // GPIO where the button is connected
+int buttonState = 0; // state of the button
 
-Combinations: multiple buttons controlling LEDs
+void setup() {
+  // Initialize Serial Monitor
+  Serial.begin(115200);
 
-## Input/Output Integration
+  // Configure the button pin as input
+  pinMode(buttonPin, INPUT);
+}
 
-Practical exercise: button as an LED toggle switch
+void loop() {
+  // Read the state of the button
+  buttonState = digitalRead(buttonPin);
 
-Practical exercise: button selects which LED to turn on
+  // Print the state
+  if (buttonState == HIGH) {
+    Serial.println("Button is pressed!");
+  } else {
+    Serial.println("Button is not pressed.");
+  }
+}
+```
 
-## Exercises
+<details>
+<summary>Exercise 3</summary>
+
+**Task:**  
+Develop a program to turn on an LED when the button is pressed.
+
+<!-- **Solution:**  
+[ex3](ex3/ex3.ino) -->
+
+</details>
+
+<details>
+<summary>Exercise 4</summary>
+
+**Task:**  
+Develop a program to turn on an LED combinations: multiple buttons controlling LEDs. Create your own logic.
+
+<!-- **Solution:**  
+[ex4](ex4/ex4.ino) -->
+
+</details>
 
 ## Next Tutorial
 
