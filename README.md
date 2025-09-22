@@ -46,4 +46,4 @@ While most sketches should work on other ESP32 variants, minor adjustments may b
 
 ## External links
 
-- [ESP32-WROOM-32: Datasheet Version 3.6](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf)
+- ESP32-WROOM-32: Datasheet Version 3.6 - [https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf)
