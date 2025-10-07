@@ -48,13 +48,15 @@ void trigger() {
 
 void setup() {
   pinMode(BUTTON_PIN, INPUT_PULLUP) // Button setup.
-  // Here we attach the interrupt, with a given pin, a function
   /**
-    The digitalPinToInterrupt() function converts a digital pin to a hardware interrupt.
+    Here we attach the interrupt, with a given pin, a function
+
+    The digitalPinToInterrupt() function converts a digital pin number to a hardware interrupt.
     
-    The second argument, trigger,
+    The second argument, trigger:
     is the function that will be called once the interrupt happens, 
-    in an interrupt return types (int, bool etc) are not used, on top of that passing arguments to that function is NOT possible from an interrupt.
+    in an interrupt return types (int, bool etc) are not used, 
+    on top of that passing arguments to that function is NOT possible from an interrupt.
 
     The third argument, FALLING is the mode. This mode can be one of the following:
       - RISING -> The signal goes from LOW to HIGH
