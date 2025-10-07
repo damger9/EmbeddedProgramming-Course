@@ -24,10 +24,12 @@ The content of each tutorial is listed below:
 - [Tutorial 7](/tutorials/tutorial7/ReadMe.md) - Functions.
 - [Tutorial 8](/tutorials/tutorial8/ReadMe.md) - Arrays and Strings.
 - [Tutorial 9](/tutorials/tutorial9/ReadMe.md) - Pointers.
-- [Tutorial 10](/tutorials/tutorial10/ReadMe.md) - Structures.
-- [Tutorial 11](/tutorials/tutorial11/ReadMe.md) - Libraries.
-- [Tutorial 12](/tutorials/tutorial12/ReadMe.md) - I2C Communication.
-- [Tutorial 13](/tutorials/tutorial13/ReadMe.md) - SPI Communication.
+- [Tutorial 10](/tutorials/tutorial10/ReadMe.md) - Millis() and Interrupts.
+- [Tutorial 11](/tutorials/tutorial11/ReadMe.md) - Structures.
+- [Tutorial 12](/tutorials/tutorial12/ReadMe.md) - Libraries.
+
+- [Tutorial 13](/tutorials/tutorial13/ReadMe.md) - I2C Communication.
+- [Tutorial 14](/tutorials/tutorial134ReadMe.md) - SPI Communication.
 
 ## How to use
 
